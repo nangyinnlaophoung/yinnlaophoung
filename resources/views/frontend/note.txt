@@ -1,0 +1,59 @@
+//Main Functions
+
+-Item Management
+  -Brand/Category/Subcategory
+
+-Sell /Shopping
+
+-order Management
+    -item/customer
+    -orders/ordera_detail
+
+-customer Management  
+    -Reports
+
+order
+-voucherid,user_id,orderdate,status
+
+0der_details
+-vouccccherid,produvt-id,qty
+
+-brands
+=>1 |B1	|photo
+->2 |b2 | photo
+
+
+ categories
+ => 1 | fashion | photo
+ =>2 |electronic | photo
+ 
+ -subcategories
+ =>1 | baby wear |1
+
+ Model Relationship
+ ------------------
+ -one-to-one
+     -hasOne(p)
+     -belongsTo(c)
+
+-one-to-many   
+    -hasMany(p)
+    -belongsTo(c) 
+
+-many-to-many(method(plural))
+     -belongsToMany
+     -pivot table
+
+
+Item (CRUD)create retrieve update delete
+-------------
+create- show form, store data
+retrieve-display data (all,row)
+update- show form with old value,update data 
+delete- delete data
+
+
+
+
+
+   
